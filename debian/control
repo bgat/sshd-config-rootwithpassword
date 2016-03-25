@@ -8,5 +8,6 @@ Standards-Version: 3.9.5
 Package: sshd-config-rootwithpassword
 Architecture: all
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Enables SSH root login with password
+ The openssh-server package creates an sshd_config file that
+ disallows root login with password. This config allows it.
